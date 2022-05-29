@@ -2,4 +2,11 @@
         display: flex;
         flex: 1 1 100%;
         height: 100vh;
-      }</style><script defer="defer" src="/GDI.Web/gdi.bundle.js"></script></head><body><div id="app-root"></div></body></html>
+      }</style><script defer="defer" src="/GDI.Web/gdi.bundle.js"></script></head><body><div id="app-root"></div></body><script>window.onload = function() {
+      if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
+            window.location.href = 'https://play.google.com/store/apps/details?id=br.com.fiifacil';
+        }
+        else if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+            window.location.href = 'https://apps.apple.com/us/app/gdi-invest/id1568887657';
+        }
+    };</script></html>
